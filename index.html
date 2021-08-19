@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="./css/Thư viện grid.css">
+	<link rel="stylesheet" href="./css/reponsive.css">
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Klassy cafe clone</title>
+</head>
+<body>
+	<div class="app">
+		<header id="header" class="header-scroll">
+			<div class="grid wide">
+				<div class="row">
+					<div class="col p-12 t-12 m-12">
+						<div class="header-navbar">
+							<a href="#" class="header-logo">
+								<img src="./assets/images/klassy-logo.png" alt="" class="header-logo__img">
+							</a>
+							<ul class="navbar-list">
+								<li class="navbar-list__item">
+									<a href="#" class="navbar-list__link" class="active">Home</a>
+								</li>
+								<li class="navbar-list__item">
+									<a href="#about" class="navbar-list__link">About</a>
+								</li>
+								<li class="navbar-list__item">
+									<a href="#menu" class="navbar-list__link">Menu</a>
+								</li>
+								<li class="navbar-list__item">
+									<a href="#chefs" class="navbar-list__link">Chefs</a>
+								</li>
+								<li class="navbar-list__item submenu">
+									<a href="#features" class="navbar-list__link">
+										Features
+										<i class="navbar-list__icon fas fa-angle-down"></i>
+									</a>
+									<ul class="subnavbar-list">
+										<li class="subnavbar-item">
+											<a href="#" class="subnavbar-link">Feature Page 1</a>
+										</li>
+										<li class="subnavbar-item">
+											<a href="#" class="subnavbar-link">Feature Page 2</a>
+										</li>
+										<li class="subnavbar-item">
+											<a href="#" class="subnavbar-link">Feature Page 3</a>
+										</li>
+										<li class="subnavbar-item">
+											<a href="#" class="subnavbar-link">Feature Page 4</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navbar-list__item">
+									<a href="#contact" class="navbar-list__link">Contact Us</a>
+								</li>
+							</ul>
+							<!-- Menu-trigger -->
+							<div class="menu-trigger">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="top-slider">
+			<div class="grid">
+				<div class="row no-gutters">
+					<div class="col p-4 t-12 m-12">
+						<div class="slider-left">
+							<div class="slider-left__content">
+								<h4 class="slider-left__content-heading">KlassyCafe</h4>
+								<h6 class="slider-left__content-slogan">THE BEST EXPERIENCE</h6>
+								<div class="slider-left__content-reservation">
+									<a href="#reservation" class="content-reservation__link">Make A Reservation</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col p-8 t-12 m-12">
+						<div class="slider-right">
+							<div class="slider-right__img slider">
+								<img class="slide" src="./assets/images/slide-01.jpg" alt="">
+								<img class="slide" src="./assets/images/slide-02.jpg" alt="">
+								<img class="slide" src="./assets/images/slide-03.jpg" alt="">
+							</div>
+							<button class="prevArrow slider-right-arrow">
+								<i class="fas fa-chevron-left"></i>
+							</button>
+							<button class="nextArrow slider-right-arrow">
+								<i class="fas fa-chevron-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="body">
+			<div id="about" class="about-section">
+				<div class="grid wide">
+					<div class="row">
+						<div class="col p-6 t-6 m-12 align-self">
+							<div class="about-left">
+								<h6 class="about-section__heading">ABOUT US</h6>
+								<h2 class="about-section__slogan">We Leave A Delicious Memory For You</h2>
+								<p class="about-section__text">
+									Klassy Cafe is one of the best <a href="#">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. 
+									You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes.
+									<br>
+									<br>
+									You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.
+								</p>
+								<div class="row">
+									<div class="col p-4 t-4 m-4">
+										<img class="about-section__thumb" src="./assets/images/about-thumb-01.jpg" alt="">
+									</div>
+									<div class="col p-4 t-4 m-4">
+										<img class="about-section__thumb" src="./assets/images/about-thumb-02.jpg" alt="">
+									</div>
+									<div class="col p-4 t-4 m-4">
+										<img class="about-section__thumb" src="./assets/images/about-thumb-03.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col p-6 t-6 m-12">
+							<div class="about-right">
+								<img src="./assets/images/about-video-bg.jpg" alt="">
+								<a href="" class="about-right__link">
+									<i class="fas fa-play"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="menu" class="menu-section">
+				<div class="grid">
+					<div class="row">
+						<div class="menu-on">
+							<h6 class="menu-section__heading">OUR MENU</h6>
+							<h2 class="menu-section__slogan">Our selection of cakes with quality taste</h2>
+						</div>
+					</div>
+				</div>
+				<div class="menu-under">
+					<div class="row padding-menu-under no--wrap">
+						<div class="col p-2-5 t-6 m-12">
+							<div class="menu-under-content">
+								<img src="./assets/images/menu-item-01.jpg" alt="" class="menu-under-img">
+								<div class="menu-under-price">
+									<h6>$14</h6>
+								</div>
+								<div class="menu-under-info">
+									<h1 class="menu-under-heading">Chocolate Cake</h1>
+									<p class="menu-under-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col p-2-5 t-6 m-12">
+							<div class="menu-under-content">
+								<img src="./assets/images/menu-item-02.jpg" alt="" class="menu-under-img">
+								<div class="menu-under-price">
+									<h6>$22</h6>
+								</div>
+								<div class="menu-under-info">
+									<h1 class="menu-under-heading">Klassy Pancake</h1>
+									<p class="menu-under-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col p-2-5 t-6 m-12">
+							<div class="menu-under-content">
+								<img src="./assets/images/menu-item-03.jpg" alt="" class="menu-under-img">
+								<div class="menu-under-price">
+									<h6>$18</h6>
+								</div>
+								<div class="menu-under-info">
+									<h1 class="menu-under-heading">Tall Kassy Bread</h1>
+									<p class="menu-under-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col p-2-5 t-6 m-12">
+							<div class="menu-under-content">
+								<img src="./assets/images/menu-item-04.jpg" alt="" class="menu-under-img">
+								<div class="menu-under-price">
+									<h6>$10</h6>
+								</div>
+								<div class="menu-under-info">
+									<h1 class="menu-under-heading">Bluebery Cheesecake</h1>
+									<p class="menu-under-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col p-2-5 t-6 m-12">
+							<div class="menu-under-content">
+								<img src="./assets/images/menu-item-05.jpg" alt="" class="menu-under-img">
+								<div class="menu-under-price">
+									<h6>$8.50</h6>
+								</div>
+								<div class="menu-under-info">
+									<h1 class="menu-under-heading">Klassy Cup Cake</h1>
+									<p class="menu-under-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col p-2-5 t-6 m-12">
+							<div class="menu-under-content">
+								<img src="./assets/images/menu-item-03.jpg" alt="" class="menu-under-img">
+								<div class="menu-under-price">
+									<h6>$7.25</h6>
+								</div>
+								<div class="menu-under-info">
+									<h1 class="menu-under-heading">Klassic Cake</h1>
+									<p class="menu-under-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="menu-under__arrowPagi">
+						<i class="fas fa-chevron-left"></i>
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+			</div>
+
+			<div id="chefs" class="chefs-section">
+				<div class="grid wide">
+					<div class="row">
+						<div class="chefs-on">
+							<h6 class="chefs-section__heading">OUR CHEFS</h6>
+							<h2 class="chefs-section__slogan">We offer the best ingredients for you</h2>
+						</div>
+						<div class="col p-4 t-12 m-12">
+							<div class="chefs-under__list">
+								<div class="chefs-under__thumb">
+									<div class="chefs-under__overlay"></div>
+									<ul class="chefs-under__social-icon">
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-facebook-f"></i>
+											</a>
+										</li>
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-instagram"></i>
+											</a>
+										</li>
+									</ul>
+									<img src="./assets/images/chefs-01.jpg" alt="" class="chefs-under__img">
+								</div>
+								<div class="chefs-under__content">
+									<h4>Randy Walker</h4>
+									<span>Pastry Chef</span>
+								</div>
+							</div>
+						</div>
+						<div class="col p-4 t-12 m-12">
+							<div class="chefs-under__list">
+								<div class="chefs-under__thumb">
+									<div class="chefs-under__overlay"></div>
+									<ul class="chefs-under__social-icon">
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-facebook-f"></i>
+											</a>
+										</li>
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-instagram"></i>
+											</a>
+										</li>
+									</ul>
+									<img src="./assets/images/chefs-02.jpg" alt="" class="chefs-under__img">
+								</div>
+								<div class="chefs-under__content">
+									<h4>David Martin</h4>
+									<span>Cookie Chef</span>
+								</div>
+							</div>
+						</div>
+						<div class="col p-4 t-12 m-12">
+							<div class="chefs-under__list">
+								<div class="chefs-under__thumb">
+									<div class="chefs-under__overlay"></div>
+									<ul class="chefs-under__social-icon">
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-facebook-f"></i>
+											</a>
+										</li>
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a href="" class="chefs-under__social-link">
+												<i class="fab fa-instagram"></i>
+											</a>
+										</li>
+									</ul>
+									<img src="./assets/images/chefs-03.jpg" alt="" class="chefs-under__img">
+								</div>
+								<div class="chefs-under__content">
+									<h4>Peter Perkson</h4>
+									<span>Pancake Chef</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="contact" id="reservation" class="contact-section">
+				<div class="grid wide">
+					<div class="row">
+						<div class="col p-6 t-12 m-12 align-self">
+							<div class="contact-left">
+								<h6 class="contact-section__heading">CONTACT US</h6>
+								<h2 class="contact-section__slogan">Here You Can Make A Reservation Or Just walkin to our cafe</h2>
+								<p class="contact-section__text">
+									Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.
+								</p>
+								<div class="contact-left-contact">
+									<div class="row">
+										<div class="col p-6 t-12 m-12">
+											<div class="contact-left-phone">
+												
+													<i class="fas fa-phone-alt"></i>
+												
+												<h4>Phone Numbers</h4>
+												<span>
+													<a href="#">080-090-0990</a>
+													<br>
+													<a href="#">080-090-0880</a>
+												</span>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="contact-left-emails">
+												
+													<i class="fas fa-envelope"></i>
+											
+												<h4>Emails</h4>
+												<span>
+													<a href="#">hello@company.com</a>
+													<br>
+													<a href="#">info@company.com</a>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col p-6 t-12 m-12">
+							<div class="contact-right contact-form">
+								<form method="post" action="" id="contact-form">
+									<div class="row">
+										<div class="col p-12 t-12 m-12">
+											<h4 class="contact-right-heading">Table Reservation</h4>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<input type="text" name="name" id="name" placeholder="Your Name*" required>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<input type="text" name="email" id="email" placeholder="Your Email Address" required>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<input type="text" name="phone" id="phone" placeholder="Phone Number*" required>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<select name="number-guests" id="number-guests" value="number-guests">
+												<option value="number-guests">Number Of Guests</option>
+												<option value="1" id="1">1</option>
+												<option value="2" id="2">2</option>
+												<option value="3" id="3">3</option>
+												<option value="4" id="4">4</option>
+												<option value="5" id="5">5</option>
+												<option value="6" id="6">6</option>
+												<option value="7" id="7">7</option>
+												<option value="8" id="8">8</option>
+												<option value="9" id="9">9</option>
+												<option value="10" id="10">10</option>
+												<option value="11" id="11">11</option>
+												<option value="12" id="12">12</option>
+											</select>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<input type="datetime-local" name="date" id="date" class="form-control" required>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<select value="time" name="time" id="time">
+												<option value="time">Time</option>
+												<option name="BreakFast" id="BreakFast">BreakFast</option>
+												<option name="Lunch" id="Lunch">Lunch</option>
+												<option name="Dinner" id="Dinner">Dinner</option>
+											</select>
+										</div>
+										<div class="col p-12 t-12 m-12">
+											<textarea name="message" id="message" rows="6" placeholder="Message" required></textarea>
+										</div>
+										<div class="col p-12 t-12 m-12">
+											<button type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="oder-section">
+				<div class="grid wide">
+					<div class="row">
+						<div class="oder-on">
+							<h6 class="oder-section__heading">KLASSY WEEK</h6>
+							<h2 class="oder-section__slogan">This Week’s Special Meal Offers</h2>
+						</div>
+						<div class="oder-under">
+							<ul class="oder-under-choose">
+								<li>
+									<a href="" class="oder-under-choose__link active">
+										<img src="./assets/images/tab-icon-01.png" alt="" class="oder-under-choose__img">
+										Breakfast
+									</a>
+								</li>
+								<li>
+									<a href="" class="oder-under-choose__link">
+										<img src="./assets/images/tab-icon-02.png" alt="" class="oder-under-choose__img">
+										Lunch
+									</a>
+								</li>
+								<li>
+									<a href="" class="oder-under-choose__link">
+										<img src="./assets/images/tab-icon-03.png" alt="" class="oder-under-choose__img">
+										Dinner
+									</a>
+								</li>
+							</ul>
+							<div class="oder-under-dish">
+								<article class="tab-pane active">
+									<div class="row">
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-01.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Fresh Chicken Salad</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$10.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-02.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Orange Juice</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$8.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-03.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Fruit Salad</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$9.90</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-04.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Eggs Omelette</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$6.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-05.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Dollma Pire</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$5.00</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-06.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Omelette & Cheese</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$4.10</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="tab-pane">
+									<div class="row">
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-04.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Eggs Omelette</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$6.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-05.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Dollma Pire</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$5.00</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-06.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Omelette & Cheese</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$4.10</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-01.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Fresh Chicken Salad</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$10.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-02.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Orange Juice</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$8.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-03.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Fruit Salad</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$9.90</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="tab-pane">
+									<div class="row">
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-05.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Dollma Pire</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$5.00</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-03.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Fruit Salad</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$9.90</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-02.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Orange Juice</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$8.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-06.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Omelette & Cheese</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$4.10</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-01.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Fresh Chicken Salad</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$10.50</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col p-6 t-12 m-12">
+											<div class="oder-under-dish__item">
+												<img src="./assets/images/tab-item-04.png" alt="" class="oder-under-dish__img">
+												<div class="oder-under-dish__content">
+													<h4>Eggs Omelette</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+												</div>
+												<div class="oder-under-dish__price">
+													<h6>$6.50</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="grid wide">
+				<div class="row">
+					<div class="col p-4 t-12 m-12">
+						<ul class="footer-social-list">
+							<li>
+								<a href="" class="footer-social-link">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="" class="footer-social-link">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="" class="footer-social-link">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li>
+								<a href="" class="footer-social-link">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col p-4 t-12 m-12">
+						<a href="#" class="footer-logo">
+							<img src="./assets/images/white-logo.png" alt="" class="footer-img">
+						</a>
+					</div>
+					<div class="col p-4 t-12 m-12">
+						<div class="footer-copyright">
+							<p>
+								© Copyright Klassy Cafe Co.
+								<br>
+								Design: CodePoKo
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	<script src="./main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+</body>
+</html>
