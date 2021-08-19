@@ -1,1 +1,1 @@
-https://codepoko.github.io/klassy-cafe-demo/
+https://codepoko.github.io/Klassy-cafe-demo/
